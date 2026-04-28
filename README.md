@@ -56,7 +56,7 @@ Spotted a missing icon, an inconsistency, or an off-by-one stroke? Open an issue
 ## Links
 
 - Website — [incy.cc](https://incy.cc)
-- Telegram — [@incydvp](https://t.me/incy_public)
+- Telegram — [@incy_public](https://t.me/incy_public)
 - Issues — [GitHub Issues](../../issues)
 
 ---
