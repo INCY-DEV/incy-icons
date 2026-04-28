@@ -59,39 +59,12 @@ import IconShield from './incy-icons/INCY-00002.svg?react';
 <IconShield className="w-6 h-6 text-emerald-500" />
 ```
 
-### iOS (SwiftUI)
-
-Drop the SVGs into `Assets.xcassets`, set them to **Preserve Vector Data**, then:
-
-```swift
-Image("INCY-00002")
-    .renderingMode(.template)
-    .foregroundStyle(.green)
-```
-
-### Android (Jetpack Compose)
-
-Convert via Android Studio → New → Vector Asset, then:
-
-```kotlin
-Icon(
-    painter = painterResource(R.drawable.incy_00002),
-    contentDescription = null,
-    tint = MaterialTheme.colorScheme.primary
-)
-```
-
 ## Catalog
 
 All icons live in the repository root, named `INCY-00001.svg` … `INCY-00058.svg`.
 A visual gallery is coming soon — for now, GitHub renders SVGs directly: just open any file to preview it.
 
 ## Used by
-
-- [INCY for iOS](https://apps.apple.com/app/incy)
-- [INCY for Android](https://play.google.com/store/apps/details?id=cc.incy)
-- INCY for macOS / Linux / Windows
-- [INCY Web Panel](https://incy.cc)
 
 If you build something with these icons, open a PR and add it here.
 
@@ -114,7 +87,7 @@ Spotted a missing icon, an inconsistency, or an off-by-one stroke? Open an issue
 ## Links
 
 - Website — [incy.cc](https://incy.cc)
-- Telegram — [@incydvp](https://t.me/incydvp)
+- Telegram — [@incydvp](https://t.me/incy_public)
 - Issues — [GitHub Issues](../../issues)
 
 ---
